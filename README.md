@@ -5,7 +5,7 @@ Nodejs tail a logfile for use in testscripts
 Very simple example:
 
 ```
-var tail = require('./tail.js');
+var tail = require('logtail');
 
 tail.startListening("log", "bridge.log");
 
