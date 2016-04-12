@@ -1,0 +1,19 @@
+{
+  "name": "logtail",
+  "version": "1.0.0",
+  "description": "Helper module for parsing logfiles in testscripts",
+  "main": "tail.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrankAdesys/logtail.git"
+  },
+  "author": "Frank van Kesteren",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FrankAdesys/logtail/issues"
+  },
+  "homepage": "https://github.com/FrankAdesys/logtail#readme"
+}
