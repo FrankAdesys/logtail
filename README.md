@@ -7,7 +7,7 @@ Very simple example:
 ```
 var tail = require('logtail');
 
-tail.startListening("log", "bridge.log");
+tail.startListening("log", "app.log", true);
 
 setInterval(function() {
     var data = tail.getlines();
